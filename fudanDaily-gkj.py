@@ -84,7 +84,7 @@ def notify(_status, _message):
         return
 
     _d = {
-        "desp": _message
+        "desp": "_message"
     }
     if _status:
         _d["text"] = "打卡成功-GKJ"
